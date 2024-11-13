@@ -52,6 +52,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - Better understanding of `flexbox`
 - Take measurements from an image
+- How to add Keybord navigation
 
 ## Author
 
