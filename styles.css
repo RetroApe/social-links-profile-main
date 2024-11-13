@@ -1,6 +1,113 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; margin: 0.5rem}
+.attribution a { color: hsl(228, 37%, 65%); }
+
+:root {
+    --yellow: #c5f82a;
+    --lightyellow: #93f03b;
+
+    --grey700: #363636;
+    --grey800: #242424;
+    --grey900: #1b1b1b;
+
+    --card-width: 24rem;
+    --card-height: 38rem;
+    --card-padding: 2.5rem;
+}
 
 * {
-    border: 1px solid;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+
+    text-align: center;
+    margin: 0;
+    color: white;
 }
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey900);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: var(--card-width);
+    height: var(--card-height);
+    background-color: var(--grey800);
+    border-radius: 0.7rem;
+
+    padding: var(--card-padding);
+}
+
+.card.container {
+    justify-content: space-between;
+}
+
+.avatar-img {
+    height: 5.625rem;
+    border-radius: 50%;
+}
+
+
+h1 {
+    margin: 1.4rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#location {
+    color: var(--yellow);
+    font-size: small;
+    font-weight: 600;
+    margin: 0.5rem 0 0 0;
+}
+
+#info {
+    margin-bottom: 1.75rem;
+    font-size: small;
+    font-weight: 300;
+}
+
+.social.container {
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social p{
+    height: 2.8125rem;
+
+    align-content: center;
+    background-color: var(--grey700);
+    border-radius: 0.5rem;
+
+    font-size: 0.88rem;
+    font-weight: bold;
+}
+
+.social p:hover {
+    cursor: pointer;
+    background-color: var(--yellow);
+    color: var(--grey900);
+
+    transform: scale(103%);
+}
+
+.social p:active {
+    transform: scale(98%);
+    background-color: var(--lightyellow);
+}
+
+@media (max-width:500px) {
+    :root {
+        --card-width: 20.5rem;
+        --card-height: 36.125rem;
+        --card-padding: 1.5rem;
+    }
+})
