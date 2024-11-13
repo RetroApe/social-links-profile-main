@@ -5,9 +5,9 @@
     --yellow: #c5f82a;
     --lightyellow: #93f03b;
 
-    --grey700: #363636;
-    --grey800: #242424;
-    --grey900: #1b1b1b;
+    --grey700: #333333;
+    --grey800: #1f1f1f;
+    --grey900: #141414;
 
     --card-width: 24rem;
     --card-height: 38rem;
@@ -64,14 +64,14 @@ h1 {
 
 #location {
     color: var(--yellow);
-    font-size: small;
+    font-size: 0.84rem;
     font-weight: 600;
     margin: 0.5rem 0 0 0;
 }
 
 #info {
     margin-bottom: 1.75rem;
-    font-size: small;
+    font-size: 0.84rem;
     font-weight: 300;
 }
 
