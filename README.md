@@ -51,7 +51,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### What I learned
 
 - Better understanding of `flexbox`
-- Taking measurements from an image
+- Take measurements from an image
 
 ## Author
 

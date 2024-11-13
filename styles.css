@@ -91,18 +91,21 @@ h1 {
     font-weight: bold;
 }
 
-.social p:hover {
+.social p:hover, .social p:focus {
     cursor: pointer;
     background-color: var(--yellow);
     color: var(--grey900);
 
     transform: scale(103%);
+
+    outline: 0;
 }
 
 .social p:active {
     transform: scale(98%);
     background-color: var(--lightyellow);
 }
+
 
 @media (max-width:500px) {
     :root {
